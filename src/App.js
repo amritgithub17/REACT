@@ -20,13 +20,13 @@ const data = [
   image: "https://images.hindustantimes.com/tech/rf/image_size_960x540/HT/p2/2019/04/05/Pictures/books-photo-retail-store-seen-amazon-amazon_16cf7722-578e-11e9-8bc0-bee180be535f.jpg",
   prodName: "Amazon",
   _id : 45632565,
-  desc : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto reiciendis maxime laborum sint nemo, praesentium possimus minus sit tenetur at cum, iusto inventore nulla rerum expedita amet. Porro recusandae esse laborum doloremque fugit corporis?",
+  desc : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto reiciendis maxime laborum sint nemo, praesentium possimus minus sit tenetur at cum, iusto inventore nulla rerum expedita amet. Porro recusandae esse laborum doloremque fugit corporis Porro recusandae esse laborum doloremque fugit corpori",
  },
  {
   image: "https://tse4.mm.bing.net/th?id=OIP.7k2mPJJ5xLVI1lfzQMAqDAHaDg&pid=Api&P=0",
   prodName: "Microsoft",
   _id : 545322,
-  desc : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto reiciendis maxime laborum sint nemo, praesentium possimus minus sit tenetur at cum, iusto inventore nulla rerum expedita amet. Porro recusandae esse laborum doloremque fugit corporis?",
+  desc : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto reiciendis maxime laborum sint nemo, praesentium possimus minus sit tenetur at cum, iusto inventore nulla rerum expedita amet. Porro recusandae esse laborum doloremque fugit corporis iusto inventore nulla rerum expedita amet. Porro recusandae esse laborum do   ",
  },
 ];
 function App() {
@@ -34,13 +34,13 @@ function App() {
   return (
     
     <div className="container">
-      <h1>{title}</h1> {/*in javascipt comment is written like this and if we want to include JS then use {}*/ }
+      <h1 className="text-center mt-5 underlin">{title}</h1> {/*in javascipt comment is written like this and if we want to include JS then use {}*/ }
       <br />
-      <div className="row">
+      <div className="row mt-5">
         {
           data.map((val,ind) => {
             return(
-              <div className="col-12 col-sm-6 col-md-4">
+              <div className="col-12 col-sm-6 col-md-3 mb-2">
                 <Card values={val}/>
               </div>
             )

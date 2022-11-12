@@ -39,7 +39,7 @@ import React, { Component } from 'react';
       <h5 class="card-title">{prodName}</h5>
       <p class="card-text">{desc}</p>
       <button class="btn btn-primary me-4">{this.State.btnText}</button> 
-      <button class="btn btn-primary">{this.State.btnNew}</button> 
+      <button class="btn btn-danger " >{this.State.btnNew}</button> 
     </div>
   </div>
     );
